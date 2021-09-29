@@ -1,0 +1,78 @@
+* { 
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+
+    /* Sets the width to be 100% of the viewport width */
+    width: 100vw;
+    height: 100vh;
+    background-color: #F7F7F7;
+    color: black;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+header {
+    height: 15%;
+    /* border: 2px solid seagreen; */
+    width: 60vw;
+    background: #FFFFFF;
+    margin: 0 auto;
+}
+
+
+.name {
+    /* border: magenta solid; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+.menu {
+    /* border: 2px solid orangered; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+#email {
+    padding-right: 10%;
+    /* color: purple; */
+}
+
+#middleMenu {
+    word-spacing: 10px;
+}
+
+
+main {
+    height: 85%;
+    border: 2px solid purple;
+    overflow: scroll;
+    background-color: #F7F7F7;
+}
+
+#heading{
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10vh;
+    padding-bottom: 2vh;
+
+}
+
+#subHeading {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* padding-top: 10vh; */
+}
+
